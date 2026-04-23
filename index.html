@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="uz">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bilim Daryosi</title>
+<style>
+body{margin:0;font-family:Georgia,serif;background:#F5F0E8;color:#1A1410}
+header{background:#1A1410;padding:1rem 2rem;border-bottom:3px solid #C8922A}
+.logo{color:#E8B84B;font-size:2rem;font-weight:900}
+nav a{color:#ccc;text-decoration:none;margin-right:1rem;font-size:0.85rem}
+.hero{background:#1A1410;padding:3rem 2rem;text-align:center}
+.hero h1{color:#fff;font-size:2rem}
+.hero p{color:#aaa}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;padding:2rem;max-width:1100px;margin:0 auto}
+.card{background:#fff;border:1px solid #ddd;padding:1.5rem;cursor:pointer;transition:transform 0.2s}
+.card:hover{transform:translateY(-4px)}
+.card .cat{background:#C8922A;color:#fff;font-size:0.7rem;padding:0.2rem 0.6rem;display:inline-block;margin-bottom:0.5rem}
+.card h3{font-size:1.1rem;margin-bottom:0.5rem}
+.card p{color:#777;font-size:0.9rem}
+footer{background:#1A1410;color:#666;text-align:center;padding:2rem;border-top:2px solid #C8922A}
+</style>
 </head>
 <body>
-<h1>Bilim Daryosi</h1>
-<p>Sayt tez orada ishga tushadi!</p>
+<header>
+<div class="logo">Bilim Daryosi</div>
+<nav>
+<a href="#">Sog'liq</a>
+<a href="#">Huquq</a>
+<a href="#">Moliya</a>
+<a href="#">Ta'lim</a>
+</nav>
+</header>
+<div class="hero">
+<h1>O'zbekcha Foydali Maqolalar</h1>
+<p>Sog'liq, huquq, moliya va ta'lim haqida ishonchli ma'lumotlar</p>
+</div>
+<div class="cards">
+<div class="card">
+<span class="cat">Sog'liq</span>
+<h3>Har kuni 30 daqiqa yurish foydasi</h3>
+<p>Tibbiy tadqiqotlar isbotlagan 12 ta foyda va to'g'ri yurish texnikasi.</p>
+</div>
+<div class="card">
+<span class="cat">Moliya</span>
+<h3>Oyiga 2 million so'mdan tejash</h3>
+<p>O'zbekistonda sinab ko'rilgan tejash usullari.</p>
+</div>
+<div class="card">
+<span class="cat">Huquq</span>
+<h3>Ishdan noto'g'ri bo'shatilsa nima qilish kerak?</h3>
+<p>Mehnat qonunchiligi va o'zingizni himoya qilish yo'llari.</p>
+</div>
+<div class="card">
+<span class="cat">Ta'lim</span>
+<h3>Xorijda bepul o'qish uchun 10 ta grant</h3>
+<p>2025-yilda O'zbekiston fuqarolari uchun ochiq stipendiyalar.</p>
+</div>
+</div>
+<footer>
+<p style="color:#E8B84B;font-size:1.3rem">Bilim Daryosi</p>
+<p>© 2025 · Barcha huquqlar himoyalangan</p>
+</footer>
 </body>
 </html>
